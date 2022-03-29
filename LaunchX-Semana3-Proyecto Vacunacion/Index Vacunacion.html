@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vacunacion MX</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
+    <link rel="stylesheet" href="src/css/main.css">
+</head>
+<body>
+    
+    <!--MOVIL-->
+   <div id="main-container">
+       <header>
+           <nav>
+               <div class="mobile">
+                   <div class="header">
+                       <button id="bmenu">
+                        <span class="material-icons">&#xe5d2;</span>
+                       </button>
+                       <a href="#"><img src="src/img/Logo Vacunacion.png" alt="Vacunacion Logo" width="120px" height="20px"></a>
+                       <div>
+                           <a href="#"><span class="material-icons">&#xe7fd;</span></a>
+                       </div>                      
+                   </div>
+                   
+                   <div class="links">
+                       <a href="#">Base De Datos</a>
+                       <a href="#">Educación</a>
+                       <a href="#">Noticias</a>
+                       <a href="#">Regulación</a>
+                   </div>
+
+                   
+               </div>
+    <!--DESK-->
+               <ul>
+                <li><a href="#" class="logo"><img src="src/img/Logo Vacunacion.png" alt="Vacunacion Logo" width="150"/></a></li>
+                       <a href="#" class="link" id="bmore"></a>
+                       <div class="menu">
+                        <a href="#" >Noticias</a>
+                        <a href="#" >Regulación</a>
+                        <a href="#" >Iniciar Sesión</a>
+
+                       </div>
+                   </li>
+        
+               </ul>
+
+               <ul>
+                <li><a href="#" class="link">Base De Datos</a></li>   
+                <li><a href="#" class="link">Educación</a></li>  
+                <li><a href="#" class="link">Noticias</a></li>
+                <li><a href="#" class="link">Regulación</a></li>
+                <li><a href="#" class="button">Iniciar Sesión</a></li>
+               </ul>
+           </nav>
+       </header>
+   </div>
+
+    <!--COVER-->
+   <section>
+    <div class="cover">
+        <div class="lcover">
+            <div class="titlecover">
+                    <p style="color: rgb(32, 60, 174);margin: 0%;">Pelea contra el virus con Vacunas.</p>
+            </div>
+            <div class="coverc">
+                <div class="textcover">
+                    <p style="margin: 0% ;">Es hora de detener esta pandemia matando el Virus con la vacuna y asi ni tu,ni tu familia se infectara.</p>
+                </div>
+            </div>
+            <div class="subscovercont">
+                <div class="subscover">
+                    <div class="subs">
+                        <img src="./src/img/shield.png" alt="shield" width="20px">
+                        <p class="minitext" style="color: rgb(31, 31, 100);">Mejor protección</p>
+                    </div>
+                    <div class="subs">
+                        <img src="./src/img/star.png" alt="star" width="20px">
+                        <p class="minitext" style="color: rgb(31, 31, 100);">Vacunas selectas</p>
+                    </div>
+                </div>
+            </div>  
+            <div class="preformcont">
+                <div class="preform">
+                    <div>
+                        <img src="./src/img/reloj.png" alt="reloj" width="30px">  
+                    </div>
+                    <div>
+                        <p class="texto" style="font-size:16px ; color: rgb(15, 35, 114);">Agenda tu vacunación</p>
+                    </div>
+                </div>
+            </div>
+            <div class="formvacon">
+                <div class="infocont">
+                    <div class="info">
+                        <div class="upinfo">
+                            <div>
+                                <img src="./src/img/location.png" alt="location" width="20px">
+                            </div>
+                            <div>
+                                <p class="texto">Ubicación</p>
+                            </div>
+                        </div>
+                        <div class="downinfo">
+                            <select name="ubicación" id="ubicacion" class="texto inform">
+                                <option>Estado</option>
+                                <option>Aguascalientes</option>
+                                <option>Baja California</option>
+                                <option>Baja California Sur</option>
+                                <option>Campeche</option>
+                                <option>Chiapas</option>
+                                <option>Chihuahua</option>
+                                <option>Ciudad de México</option>
+                                <option>Coahuila</option>
+                                <option>Colima</option>
+                                <option>Durango</option>
+                                <option>Guanajuato</option>
+                                <option>Guerrero</option>
+                                <option>Hidalgo</option>
+                                <option>Jalisco</option>
+                                <option>México</option>
+                                <option>Michoacán</option>
+                                <option>Morelos</option>
+                                <option>Nayarit</option>
+                                <option>Nuevo León</option>
+                                <option>Oaxaca</option>
+                                <option>Puebla</option>
+                                <option>Querétaro</option>
+                                <option>Quintana Roo</option>
+                                <option>San Luis Potosí</option>
+                                <option>Sinaloa</option>
+                                <option>Sonora</option>
+                                <option>Tabasco</option>
+                                <option>Tamaulipas</option>
+                                <option>Tlaxcala</option>
+                                <option>Veracruz</option>
+                                <option>Yucatán</option>
+                                <option>Zacatecas</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="upinfo">
+                            <div>
+                                <img src="./src/img/calendario.png" alt="calendario" width="20px">
+                            </div>
+                            <div>
+                                <p class="texto">Fecha</p>
+                            </div>
+                        </div>
+                        <div class="downinfo">
+                            <input type="date" name="fecha" id="fecha" class="texto inform">
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="upinfo">
+                            <div>
+                                <img src="./src/img/edit.png" alt="edit" width="20px">
+                            </div>
+                            <div>
+                                <p class="texto">Marca de vacuna</p>
+                            </div>
+                        </div>
+                        <div class="downinfo">
+                            <select name="marcas" id="marcas" class="texto inform">
+                                <option>Moderna</option>
+                                <option>Pfizer</option>
+                                <option>AstraZeneca</option>
+                                <option>Sinovac</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="infobot">
+                    <a href="/" class="buttonblue" >
+                        <p style="color: white;">Registrar</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="rcover"></div>
+    </div>
+      
+    <!--MARCAS-->
+    <div class="vacunas">
+        <div><img src="src/img/Logo AstraZeneca.png" alt="AstraZeneca"></div>
+        <div><img src="src/img/Logo Sinovac.png" alt="Sinovac"></div>
+        <div><img src="src/img/Pfizer.png" alt="Pfizer"></div>
+        <div><img src="src/img/Logo Moderna.png" alt="Moderna"></div>
+    </div>
+
+    <!--PREGUNTAS-->
+    <div class="preguntascont">
+        <div class="titlg">
+        <h1 style="color: rgb(32, 60, 174);margin: 0%;">¿Por que debes vacunarte?</h1>
+    </div>
+    <div class="textp">
+        <p>Para disipar alguna duda sobre porqué ponerse una vacuna contra COVID-19, le daremos 4 beneficios de la vacunación contra COVID-19.</p>
+    </div>
+</div>
+</div>
+<div class="preguntascont">
+    <div class="png">
+        <div class="buttonn">
+            <img src="/src/img/mas.png" alt="signo de más" height="40px">
+        </div>
+        <div class="titl">
+            <p>Minimiza el contagio del virus</p>
+        </div>
+        <div class="recodown">
+            <p class="minitext">Se ha comprobado que las vacunas ayudan a prevenir el contagio del Coronavirus.</p>
+        </div>
+    </div>
+    <div class="png">
+        <div class="buttonn">
+            <img src="/src/img/escudo m.png" alt="escudo morado" height="40px">
+        </div>
+        <div class="titl">
+            <p>Forma anticuerpos</p>
+        </div>
+        <div class="recodown">
+            <p class="minitext">Las vacunas contra el COVID-19 han probado formar anticuerpos, respuesta del sistema inmune.</p>
+        </div>
+    </div>
+    <div class="png">
+        <div class="buttonn">
+            <img src="/src/img/comunidad.png" alt="comunidad" height="40px">
+        </div>
+        <div class="titl">
+            <p>Protege a la gente cercana</p>
+        </div>
+        <div class="recodown">
+            <p class="minitext">La vacunación de una persona ayuda a proteger la salud de la gente cercana.</p>
+        </div>
+    </div>
+    <div class="png">
+        <div class="buttonn">
+            <img src="/src/img/grafica.png" alt="grafica" height="40px">
+        </div>
+        <div class="titl">
+            <p>Crea un grupo inmune</p>
+        </div>
+        <div class="recodown">
+            <p class="minitext">La vacuna contra COVID-19 ayuda a crear una sociedad inmune o inmunidad de rebaño.</p>
+        </div>
+    </div>
+
+    <!--PREPARACION-->
+    <div class="preparation">
+        <div class="imgsection" style="background-image:url(src/img/front-view-young-woman-sterile-mask-yellow-wall.jpg);"></div>
+        <div class="textsection">
+            <div class="title">
+                <p class="titlg">Preparación antes de vacunarte</p>
+            </div>
+            <div class="subtitle">
+                <p class="texto">El éxito de las vacunas está fuertemente influenciado por el sistema inmune del cuepo. 
+                    Por lo tanto, hay varias previsiones para hacer funcionar las vacunas contra COVID-19:
+                </p>
+            </div>
+            <div class="prepscont">
+                <div class="preps">
+                    <div>
+                        <img src="/src/img/escudo3.png" alt="escudo" width="30px">
+                    </div>
+                    <div>
+                        <p class="titl">Evita bebidas alcohólicas</p>
+                    </div>
+                </div>
+                <div class="preps">
+                    <div>
+                        <img src="/src/img/circulo.png" alt="círculo" width="30px">
+                    </div>
+                    <div>
+                        <p class="titl">Evita el estrés</p>
+                    </div>
+                </div>
+                <div class="preps">
+                    <div>
+                        <img src="/src/img/food.png" alt="comida" width="30px">
+                    </div>
+                    <div>
+                        <p class="titl">Ingiere comida saludable</p>
+                    </div>
+                </div>
+                <div class="preps">
+                    <div>
+                        <img src="/src/img/zzzz.png" alt="dormir" width="30px">
+                    </div>
+                    <div>
+                        <p class="titl">Duerme lo suficiente</p>
+                    </div>
+                </div>
+                <div class="preps">
+                    <div>
+                        <img src="/src/img/health.png" alt="corazón" width="30px">
+                    </div>
+                    <div>
+                        <p class="titl">Realiza actividades físicas</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--EMERGENCIA-->
+    <div class="emerg">
+        <div class="textsection">
+            <div class="title">
+                <p class="titlg">Contacto de emergencia</p>
+            </div>
+            <div class="subtitle">
+                <p class="texto">Contacta algunas de las opciones mostradas debajo en caso que tú o algún 
+                    familiar no se sienta bien y tenga síntomas parecidos a los del COVID-19, asegúrate de 
+                    cuidarte antes de reportarlo:
+                </p>
+            </div>
+            <div class="contactcon">
+                <div class="contacto">
+                    <div class="upem">
+                        <div>
+                            <img src="/src/img/phone.png" alt="teléfono" width="40px">
+                        </div>
+                        <div class="emtext">
+                            <p class="titl">Llamada</p>
+                        </div>
+                    </div>
+                    <div class="downem">
+                        <a href="#">
+                            <div class="botonesem">
+                                <p style="color: white;">Llama ahora</p>
+                            </div>
+                        </a>  
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div class="upem">
+                        <div>
+                            <img src="/src/img/chat.png" alt="chat" width="40px">
+                        </div>
+                        <div class="emtext">
+                            <p class="titl">Chat</p>
+                        </div>
+                    </div>
+                    <div class="downem">
+                        <a href="#">
+                            <div class="botonesem">
+                                <p style="color: white;">Escribe ahora</p>
+                            </div>
+                        </a>  
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div class="upem">
+                        <div>
+                            <img src="/src/img/camara.png" alt="cámara" width="40px">
+                        </div>
+                        <div class="emtext">
+                            <p class="titl">Videollamada</p>
+                        </div>
+                    </div>
+                    <div class="downem">
+                        <a href="#">
+                            <div class="botonesem">
+                                <p style="color: white;">Llama ahora</p>
+                            </div>
+                        </a>  
+                    </div>
+                </div>
+                <div class="contacto">
+                    <div class="upem">
+                        <div>
+                            <img src="/src/img/mail.png" alt="mail" width="40px">
+                        </div>
+                        <div class="emtext">
+                            <p class="titl">Mensaje</p>
+                        </div>
+                    </div>
+                    <div class="downem">
+                        <a href="#">
+                            <div class="botonesem">
+                                <p style="color: white;">Escribe ahora</p>
+                                </div>
+                                  </a>  
+                             </div>
+                        </div>
+                   </div>
+              </div>
+          </div>
+          <div class="imgsection" style="background-image: url(src/img/portrait-man-doctor-using-cellphone.jpg);background-position: 85% 50%;"></div>
+    </div>
+    </section>
+    
+    <!--Footer-->
+    <footer>
+        <div class="footercontainer">
+            <div class="footu">   
+            </div>
+            <div class="links">
+                <div class="cont">
+                    <p class="titl">Información</p>
+                    <a href="#" class="texto">Nosotros en el mundo actual</a>
+                    <a href="#" class="texto">¿Donde puedes encontrar mas?</a>
+                    <a href="#" class="texto">Noticias</a>
+                </div>
+                <div class="cont">
+                    <p class="titl">Salud</p>
+                    <a href="#" class="texto">Pide Tratamiento</a>
+                    <a href="#" class="texto">Sitios de Atención</a>
+                    <a href="#" class="texto">¿Requieres Ambulancia?</a>
+                </div>
+                <div class="cont">
+                    <p class="titl">Ayuda</p>
+                    <a href="#" class="texto">Preguntas frecuentes</a>
+                    <a href="#" class="texto">Soporte</a>
+                    <a href="#" class="texto">Contacto</a>
+                </div>
+            </div>
+        </div>
+        <div class="foot">
+    </Section>
+
+
+       
+   <script src="src/js/main.js"></script>
+</body>
+</html>
